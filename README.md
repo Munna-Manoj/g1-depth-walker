@@ -1,6 +1,6 @@
 # G1 Depth Walker — WYS v4 course
 
-**[Launch the interactive demo](https://munna-manoj.github.io/g1-depth-walker/)** · previous version (E1 policy, terrain hub only): [e1/](https://munna-manoj.github.io/g1-depth-walker/e1/)
+**[Launch the interactive demo](https://munna-manoj.github.io/g1-depth-walker/)** · previous version (E1 policy, terrain hub only): [e1/](https://munna-manoj.github.io/g1-depth-walker/e1/) · **non-commercial use only** ([CC BY-NC 4.0](LICENSE))
 
 Drive a simulated Unitree G1 humanoid through the Watch Your Step hub and 17 added capability courses (stepping stones,
 stone stairs, planks, twin rails, an elevated course, stairs, platforms, gaps, a ramp, boxes, rough ground) with a
@@ -73,4 +73,12 @@ visitor's device and controls a simulated robot: no installation, account or con
 The embedded G1 depth walking policy (S2, iteration 9000; weights stored as float16) is separate from the Watch Your Step
 foothold-prediction policy. Third-party licenses apply to their respective components.
 
-Build: policy s2_stones_beams_15k_it9000, index.html sha256 fd2b3db75812
+## License
+
+**Non-commercial.** The original parts of this project (the G1 depth walking policy and its weights, courses 8–24, the
+page code and this documentation) are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/):
+share and adapt them for non-commercial purposes with attribution; commercial use needs separate written permission.
+See [LICENSE](LICENSE). Bundled third-party components keep their own licenses (MuJoCo Apache 2.0, three.js MIT,
+Unitree G1 description BSD 3-Clause, Watch Your Step courses 0–7 MIT; see `licenses/`).
+
+Build: policy s2_stones_beams_15k_it9000, index.html sha256 45cae5ec63aa
