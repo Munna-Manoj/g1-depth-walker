@@ -76,7 +76,7 @@ foothold-prediction policy. Third-party licenses apply to their respective compo
 ## License
 
 **Non-commercial.** The original parts of this project (the G1 depth walking policy and its weights, courses 8–24, the
-page code and this documentation) are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/):
+page code, the previous E1 page in `e1/` and this documentation) are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/):
 share and adapt them for non-commercial purposes with attribution; commercial use needs separate written permission.
 See [LICENSE](LICENSE). Bundled third-party components keep their own licenses (MuJoCo Apache 2.0, three.js MIT,
 Unitree G1 description BSD 3-Clause, Watch Your Step courses 0–7 MIT; see `licenses/`).
