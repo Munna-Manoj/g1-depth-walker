@@ -7,6 +7,7 @@ the added courses (8-24) and course layout, the page code (simulation driver, ga
 documentation — are licensed under the Creative Commons Attribution-NonCommercial 4.0 International license
 (CC BY-NC 4.0), reproduced below. You may share and adapt them for non-commercial purposes with attribution; commercial
 use is not permitted without separate written permission from the authors.
+This license applies to all versions of this repository, including commits made before this file was added.
 
 What it does not cover: third-party components bundled in the page remain under their own licenses, and those terms
 take precedence for those components (see the licenses/ folder): MuJoCo (Apache 2.0), three.js (MIT), the Unitree G1
